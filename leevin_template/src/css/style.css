@@ -1,0 +1,63 @@
+body{
+	margin: 40px;
+	padding: 20px;
+	text-align: justify;
+}
+
+.marginterms{
+	margin-left: 50px;
+	margin-right: 50px;
+	text-align: justify;
+}
+
+.img-fluid{
+	width: 30%;
+}
+
+#fontsizetopo{
+	font-size: 20px;
+}
+
+#margemtop{
+	margin-top: -15px;
+}
+
+#espacamento{
+	margin-top: 20px;
+
+}
+
+#danger{
+	color: red;
+}
+
+.marginp{
+	margin-left: 80px;
+}
+
+.thead-dark{
+	background-color: black;
+	color: white;
+}
+
+span.cls_014{
+	font-family:Arial,serif;
+	font-size:10.0px;
+	color:rgb(0,175,239);
+	font-weight:normal;
+	font-style:normal;
+	text-decoration: none
+}
+
+div.cls_014{
+	font-family:Arial,serif;
+	font-size:10.0px;
+	color:rgb(0,175,239);
+	font-weight:normal;
+	font-style:normal;
+	text-decoration: none
+}
+
+.MenosNegrito {
+ font-weight: lighter;
+}
