@@ -1,0 +1,204 @@
+body {
+  margin-left: 40px;
+  margin-right: 40px;
+  padding: 20px;
+  margin-bottom: 40px;
+  font-family: arial;
+  line-height: 1.4em;
+}
+
+header {
+  min-height: 60px;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 2;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-bottom: 20px;
+}
+
+div.cls001{
+  float: right;
+  text-align: right;
+}
+
+div.cls002{
+  float: all;
+  text-align: justify-all;
+  padding-top: 40px;
+}
+
+p.cls003{
+  margin-top: 50px;
+}
+
+@page {
+  margin: 0.5cm;
+  color: #000 !important;
+  size: A4;
+
+}
+
+.clearfix {
+  background: #f9f9f9;
+  font-family: "Nunito", sans-serif;
+  color: #777;
+  background: #f9f9f9;
+}
+
+.page-body {
+  max-width: 800px;
+  margin: 30px auto 0;
+  padding: 80px 50px;
+  border: 1px solid #eee;
+  font-size: 16px;
+  line-height: 24px;
+  background: #fff;
+  p {
+    color: #000;
+  }
+}
+
+.font-size-top {
+  font-size: 20px;
+}
+
+.block {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.print-button {
+  padding: 13px 26px;
+  text-decoration: none;
+  color: #fff;
+  background: #3aaced;
+  display: inline-table;
+  font-weight: 900;
+  margin: 20px 0;
+  font-size: 13px;
+  border-radius: 4px;
+
+  &:hover,
+  &:focus {
+    color: #fff;
+    text-decoration: none;
+  }
+}
+
+@media print {
+  page-break-after{
+    margin-top: 50px;
+  }
+
+
+  .pagebreak { 
+    page-break-before: always, margin-top: 50px; 
+    clear: both;
+    page-break-after: always;
+  }
+
+  body
+
+  div.page01 {
+    page-break-after: always;
+    page-break-inside: avoid;
+    margin-top: 200px;
+  }
+
+
+  div.page {
+    page-break-after: always;
+    page-break-inside: avoid;
+    margin-top: 50px;
+  }
+
+  .page-body {
+    background: #fff !important;
+  }
+  .contract-box {
+    max-width: 100% !important;
+    padding: 50px !important;
+  }
+  .print-button {
+    display: none;
+  }
+  .contract-box {
+    border: none;
+  }
+}
+
+p.cls004{
+  text-align: justify;
+}
+
+p.top{
+  margin-top: 20px;
+}
+
+.col
+{
+float: left;
+width: 25%;
+}
+
+.last{
+clear: left;
+}
+
+.row{
+border: 1px;
+}
+
+table.cls005{
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+tr.cls006{
+  color: white;
+  background-color: black;
+}
+
+@media print {
+ 
+  body{
+    margin-top: 60px;
+    margin-bottom: 50px;
+    page-break-before: always;
+    page-break-inside: avoid;
+  }
+
+.bloq01{
+  margin-top: 500px;
+}
+
+.page-break { 
+page-break-before: always; 
+}
+     
+}
+
+@page {
+margin: 0.5cm;
+}
+
+
+span.cls007{
+  color: red;
+  text-decoration-style: bold;
+}
+
+span.cls008{
+  color: deepskyblue;
+}
+
+
+h1 {
+  page-break-before: always;
+}
+
+.bloq01{
+  margin-top: 50px;
+}
